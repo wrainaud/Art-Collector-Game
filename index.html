@@ -1,0 +1,101 @@
+<!-- William Rainaud
+  Rutgers Coding Bootcamp 
+  Homework Assignment 4 - Crystal Collector Game -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Flavicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Latest compiled and minified jQuery -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <title>Art Collector</title>
+
+</head>
+<body>
+
+
+<div class="container-fluid"> 
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 jumbotron bg-primary">
+            <h1> Art Collector! </h1>
+
+            <h2> Instructions:</h2>
+                <h4> At the start of the game, a Random Number is generated. Each painting below has a random value. When the player clicks on a painting, a specific amount of points to the Player's Score. The object of the game is to match the Player's score with the Random Number, without going over.
+                </h4>
+            <br/>
+                <h3 id="message"></h3> 
+            <br/>
+
+            <!-- Wins -->
+            <div class="col-sm-3 col-xs-12 text-center">Wins
+                <p id="wins-counter" class="btn-success btn-lg text-center">0</p>
+            </div>
+
+            <!-- Losses -->
+            <div class="col-sm-3 col-xs-12 text-center">Losses
+                <p id="losses-counter" class="btn-danger btn-lg text-center">0</p>
+            </div>
+        
+            <!-- Player Score -->
+            <div class="col-sm-3 col-xs-12 text-center">Player Score
+                <p id="player-score" class="btn-info btn-lg text-center">#</p>
+            </div>
+        
+            <!-- Random Number -->
+            <div class="col-sm-3 col-xs-12 text-center">Random Number
+                <p id="random-score" class="btn-warning btn-lg text-center">#</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid"> 
+    <div class="row">
+        <div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-6">
+            <button id="art1" type="button" class="btn btn-default" value="0">
+                <img src="assets/images/art_1.jpg" alt="art1" class="img-responsive">
+            </button>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+            <button id="art2" type="button" class="btn btn-default" value="1">
+                <img src="assets/images/art_2.jpg" alt="art2" class="img-responsive">
+            </button>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+            <button id="art3" type="button" class="btn btn-default" value="2"> 
+                <img src="assets/images/art_3.jpg" alt="art3" class="img-responsive">
+            </button>
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+            <button id="art4" type="button" class="btn btn-default" value="3">
+                <img src="assets/images/art_4.jpg" alt="art4" class="img-responsive">
+            </button>
+        </div>
+    </div>
+</div>
+
+        <div class="row text-center footer">
+                © Copyright 2017 <a href="https://wrainaud.github.io/Responsive-Portfolio/" target="_blank">William J. Rainaud</a> <br/>
+        </div>
+
+
+</body>
+</html>
