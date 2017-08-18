@@ -5,9 +5,53 @@
   @import url('https://fonts.googleapis.com/css?family=Poppins');
 
   body{
-  	background-image: url("../images/Gallery_11.jpg");
+  	background-image: url("../images/Gallery11.jpg");
     background-size: cover;
   }
+
+h1, h2, h3, h4{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  a {
+    color: #df2828;
+  font-weight: 800;
+  }
+
+  b{
+    color: #4ca44c;
+  font-weight: 800;
+  }
+
+
+ .art{
+  width: 300px;
+  height: 200px;
+ }
+
+.jumbotron {
+  background-color: rgba(255,255,255,0.7);
+  border-bottom: 5px #666666 solid;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #666666;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.jumbotron h1{
+  color: #df2828;
+  font-weight: 800;
+}
+
+.footer{
+  margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
 
   h1, h2, h3, h4{
   	font-family: 'Poppins', sans-serif;
@@ -46,7 +90,11 @@
 	font-weight: 800;
 }
 
-@media only screen and (max-width: 767px) {
+.footer{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
 
   h1, h2 {
   	font-family: 'Poppins', sans-serif;
@@ -84,6 +132,12 @@
 	margin: 0px 0px 15px 0px;
 }
 
+.footer{
+  margin-top: 20px;
+}
+
+}
+
 @media only screen and (max-width: 375px) {
 
 html{
@@ -104,5 +158,11 @@ a {
 .jumbotron h1{
 	color: #df2828;
 	font-weight: 800;
+}
+
+.footer{
+  margin-top: 20px;
+}
+
 }
 
